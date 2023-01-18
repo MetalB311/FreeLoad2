@@ -8,13 +8,13 @@ const Home = () => {
         <br />
         <ul>
           
-          <li>
+          <button>
             <Link to='/'>Home</Link>
-          </li>
+          </button>
           
-          <li>
-            <Link to='/Pistol'>Pistol</Link>
-          </li>
+          <Link to='/Pistol'>
+          <button>Pistol</button>
+          </Link>
           
           <li>
             <Link to='/Rifle'>Rifle</Link>

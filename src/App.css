@@ -103,3 +103,18 @@ h1 {
   justify-content: center;
   
 }
+
+button {
+  font-size: large;
+  font-weight: bold;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px
+}
+
+ul {
+  width: fit-content;
+  
+}
