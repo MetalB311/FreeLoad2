@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,67 @@
   to {
     transform: rotate(360deg);
   }
+}
+ */
+
+
+ .App {
+  text-align: center;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/51761425e4b0e95e599b06f4/1572035767193-DK9AZDBWC3TS2QKUQAVG/FAST+OC+METALLIC+CARTRIDGE+RELOADING+COURSE.jpg?format=1500w');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh
+}
+
+.App-logo {
+  height: 80vw;
+  width: 90vw;
+  /* padding: 50px; */
+  margin-top: 50px;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Login-link {
+  color: #61dafb;
+}
+
+.CreateAcct-link {
+  color: red
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+h1 {
+  font-size: 150px;
+  font:bold;
+  color:greenyellow;
+  /* background-color: red; */
+  text-Shadow: 17px 17px 15px black
+  
 }
