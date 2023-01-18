@@ -32,6 +32,9 @@ import Home from './components/Home'
 import Pistol from './components/Pistol'
 import Rifle from './components/Rifle'
 import Shotgun from './components/Shotgun'
+import Mill from './components/Mill'
+import Gauge from './components/Gauge'
+import Ar from './components/Ar'
 
 function App () {
   return (
@@ -42,6 +45,9 @@ function App () {
         <Route path='/Pistol' element={<Pistol />} />
         <Route path='/Rifle' element={<Rifle />} />
         <Route path='/Shotgun' element={<Shotgun />} />
+        <Route path='/Mill' element={<Mill />} />
+        <Route path='/Gauge' element={<Gauge />} />
+        <Route path='/Ar' element={<Ar />} />
        
     </Routes>
     </>
