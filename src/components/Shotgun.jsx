@@ -4,12 +4,15 @@ import { Link } from 'react-router-dom'
 const Shotgun = () => {
     return (
       <div>
-          <h1>Shotgun Page</h1>
-          <ul>
-            <li>
-            <Link to='/Gauge'>12 Gauge</Link>
-            </li>
-        </ul>
+        <h1>Shotgun</h1>
+          <ul>    
+          <Link to='/'>
+          <button>Home</button>
+          </Link>      
+            <Link to='/Gauge'>
+            <button>12 Gauge</button>
+            </Link>
+          </ul>
       </div>
     )
   }

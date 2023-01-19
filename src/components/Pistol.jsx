@@ -5,11 +5,16 @@ import { Link } from 'react-router-dom'
 const Pistol = () => {
   return (
     <div>
-        <h1>Pistol Page</h1>
+        <h1>Pistol</h1>
         <ul>
-            <li>
-            <Link to='/Mill'>9MM</Link>
-            </li>
+          
+          <Link to='/'>
+          <button>Home</button>
+          </Link>
+          <Link to='/Mill'>
+          <button>9MM</button>
+          </Link>
+            
         </ul>
     </div>
   )
