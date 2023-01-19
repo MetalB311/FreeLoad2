@@ -92,11 +92,12 @@
 
 
 h1 {
+  
   font-size: 150px;
   font:bold;
   color:greenyellow;
-  /* background-color: red; */
-  text-Shadow: 17px 17px 15px black;
+  /* background-color: blue; */
+  text-Shadow: 17px 17px 15px navy;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,12 +106,12 @@ h1 {
 }
 
 button {
-  font-size: large;
+  font-size: xx-large;
   font-weight: bold;
-  height: 50px;
-  width: 100px;
-  display: flex;
-  flex-direction: column;
+  height: 250px;
+  width: 250px;
+  display: inline;
+  flex-direction: row;
   margin: 15px
 }
 
@@ -119,3 +120,21 @@ ul {
 
 }
 
+/* .Pistol {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.quora.com%2FWhich-is-more-powerful-9mm-or-223&psig=AOvVaw13TLEaZsTheia2IrXuMhtV&ust=1674240222968000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKCX0ICl1PwCFQAAAAAdAAAAABAE');
+  background-size: cover;
+} */
+
+a {
+  font-size: xx-large;
+  font-weight: bold;
+  height: 250px;
+  width: 250px;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 15px;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+  border: black
+}

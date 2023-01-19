@@ -5,13 +5,14 @@ const Shotgun = () => {
     return (
       <div>
         <h1>Shotgun</h1>
-          <ul>    
+        <ul>    
+            
           <Link to='/'>
-          <button>Home</button>
-          </Link>      
-            <Link to='/Gauge'>
-            <button>12 Gauge</button>
-            </Link>
+            <button>Home</button>
+          </Link>
+          <Link to='/Gauge'>
+          <button>12 Gauge</button>
+          </Link>
           </ul>
       </div>
     )
