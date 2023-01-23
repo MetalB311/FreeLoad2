@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeImg from '../images/home.jpg'
+import Navbar from '../components/Navbar'
 
 const Header = () => {
   return (
@@ -9,6 +10,9 @@ const Header = () => {
           </a>
         
         <h1>FreeLoad</h1>
+
+        <Navbar />
+
         </header>
   )
 }
