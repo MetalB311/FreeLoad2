@@ -38,14 +38,14 @@
 }
  */
 
-
+/* 
  .App {
   text-align: center;
   background-image: url('https://images.squarespace-cdn.com/content/v1/51761425e4b0e95e599b06f4/1572035767193-DK9AZDBWC3TS2QKUQAVG/FAST+OC+METALLIC+CARTRIDGE+RELOADING+COURSE.jpg?format=1500w');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh
-}
+} */
 
 .App-logo {
   height: 80vw;
@@ -117,7 +117,11 @@ button {
 
 ul {
   width: fit-content;
-
+  display: inline;
+  margin: 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 /* .Pistol {
@@ -140,7 +144,7 @@ a {
 }
 
 header {
-  background-color: cyan;
+  background-color: darkcyan;
   min-height: 15vh;
   display: flex;
   flex-direction: row;
@@ -161,10 +165,11 @@ header {
 
 .navBar button {
   position: right;
-  left: 40px;
-  top: 40px;
+  left: 20px;
+  top: 20px;
   z-index: 10;
   cursor: pointer;
+  margin: 100px;  
 }
 
 .menuNav {
@@ -175,10 +180,10 @@ header {
   background: darkcyan;
   right: 0;
   bottom: 0;
-  height: 100vh;
+  height: 43vh;
   width: 0;
   overflow: hidden;
-  max-width: 290px;
+  max-width: 10vw;
   z-index: 9;
 }
 
