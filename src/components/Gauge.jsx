@@ -1,9 +1,11 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import Header from '../components/Header'
 
 const Gauge = () => {
   return (
+    
     <div>
+      <Header />
         <h1>12 Gauge</h1>
     </div>
   )
