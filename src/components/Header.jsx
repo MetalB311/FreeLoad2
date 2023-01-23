@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
           
-          <a href="/" onclick="event.preventDefault()"><img src={HomeImg} alt='Home' height='50px' width='50px'></img>
+          <a href="/" onclick="event.preventDefault()"><img src={HomeImg} alt='Home' height='100px' width='100px'></img>
           </a>
         
         <h1>FreeLoad</h1>
