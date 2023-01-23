@@ -138,3 +138,13 @@ a {
   margin: 100px;
   border: black
 }
+
+header {
+  background-color: cyan;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
