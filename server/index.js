@@ -27,6 +27,19 @@ app.get('/45Colt', async (req, res) => {
     res.status(200).send(info[0])
 })
 
+app.get('/223Remington', async (req, res) => {
+    const info = await sequelize.query(`
+    select * from information where platform = '223 Remington' 
+    `)
+    res.status(200).send(info[0])
+})
+
+app.get('/308Winchester', async (req, res) => {
+    const info = await sequelize.query(`
+    select * from information where platform = '308 Winchester' 
+    `)
+    res.status(200).send(info[0])
+})
 
 
 app.listen(4000, () => {

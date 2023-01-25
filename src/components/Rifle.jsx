@@ -8,12 +8,20 @@ const Rifle = () => {
         <Header />
           <h1>Rifle</h1>
         <ul>
-        <Link to='/'>
+        {/* <Link to='/'>
           <button>Home</button>
+          </Link> */}
+
+          <Link to='/Remington'>
+          <button>223 Remington</button>
           </Link>
-          <Link to='/Ar'>
-          <button>.223/556</button>
+
+          <Link to='/Winchester'>
+          <button>308 Winchester</button>
           </Link>
+
+
+
         </ul>
       </div>
     )

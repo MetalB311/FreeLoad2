@@ -108,8 +108,8 @@ h1 {
 button {
   font-size: xx-large;
   font-weight: bold;
-  height: 250px;
-  width: 250px;
+  height: 270px;
+  width: 270px;
   display: inline;
   flex-direction: row;
   margin: 15px

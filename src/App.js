@@ -37,7 +37,8 @@ import Gauge from './components/Gauge'
 import Ar from './components/Ar'
 import MM from './components/MM'
 import Colt from './components/Colt'
-
+import Remington from './components/Remington'
+import Winchester from './components/Winchester'
 
 function App () {
   return (
@@ -53,6 +54,8 @@ function App () {
         <Route path='/Ar' element={<Ar />} />
         <Route path='/MM' element={<MM />} />
         <Route path='/Colt' element={<Colt />} />
+        <Route path='/Remington' element={<Remington />} />
+        <Route path='/Winchester' element={<Winchester />} />
     </Routes>
     </>
   )
