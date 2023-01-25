@@ -3,11 +3,11 @@ import Header from '../components/Header'
 import axios from 'axios'
 
 
-const Mill = () => {
+const Colt = () => {
   const [data, setData] = useState()
   useEffect( () => {
     axios
-    .get('http://localhost:4000/9MM')
+    .get('http://localhost:4000/45Colt')
     .then((res) => {
       console.log(res.data)
       setData(res.data)
@@ -24,7 +24,7 @@ if(!data) return (
   return (
     <div>
       <Header />
-        <h1>9MM</h1>
+        <h1>45 Colt</h1>
        
         <h2>{data[0].platform} {data[0].weight} {data[0].type} {data[0].powder} {data[0].grains} {data[0].velocity} {data[0].primer}</h2>
         <h2>{data[1].platform} {data[1].weight} {data[1].type} {data[1].powder} {data[1].grains} {data[1].velocity} {data[1].primer}</h2>
@@ -34,4 +34,4 @@ if(!data) return (
   )
 }
 
-export default Mill
+export default Colt

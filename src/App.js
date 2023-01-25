@@ -35,7 +35,8 @@ import Shotgun from './components/Shotgun'
 import Mill from './components/Mill'
 import Gauge from './components/Gauge'
 import Ar from './components/Ar'
-
+import MM from './components/MM'
+import Colt from './components/Colt'
 
 
 function App () {
@@ -50,7 +51,8 @@ function App () {
         <Route path='/Mill' element={<Mill />} />
         <Route path='/Gauge' element={<Gauge />} />
         <Route path='/Ar' element={<Ar />} />
-       
+        <Route path='/MM' element={<MM />} />
+        <Route path='/Colt' element={<Colt />} />
     </Routes>
     </>
   )

@@ -9,13 +9,22 @@ const Pistol = () => {
         <h1>Pistol</h1>
         <ul>
           
-          <Link to='/'>
+          {/* <Link to='/'>
           <button>Home</button>
-          </Link>
+          </Link> */}
           <Link to='/Mill'>
           <button>9MM</button>
           </Link>
             
+          <Link to='/MM'>
+          <button>10MM</button>
+          </Link>
+
+          <Link to='/Colt'>
+          <button>45 Colt</button>
+          </Link>
+
+
         </ul>
     </div>
   )
