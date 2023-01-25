@@ -169,7 +169,10 @@ header {
   top: 20px;
   z-index: 10;
   cursor: pointer;
-  margin: 100px;  
+  margin: 150px;  
+  background: transparent;
+  border: none;
+  
 }
 
 .menuNav {
@@ -178,17 +181,19 @@ header {
   position: fixed;
   top: 0;
   background: darkcyan;
-  right: 0;
-  bottom: 0;
-  height: 43vh;
+  right: -450px;
+  /* bottom: 0; */
+  height: 100vh;
   width: 0;
   overflow: hidden;
-  max-width: 10vw;
+  width: 400px;
   z-index: 9;
+  display: flex;
+  flex-direction: column;
 }
 
-.menuNav.showMenu {
-  width: 100%;
+.showMenu {
+  right: 0;
 }
 
 /* a {

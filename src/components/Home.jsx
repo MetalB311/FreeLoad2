@@ -2,7 +2,7 @@ import React from 'react'
 // import { Link } from 'react-router-dom'
 import PistolImg from '../images/glock.jpg'
 import RifleImg from '../images/rifle.jpg'
-import ShotgunImg from '../images/shotgun.jpg'
+// import ShotgunImg from '../images/shotgun.jpg'
 import Header from '../components/Header'
 
 
@@ -26,8 +26,8 @@ const Home = () => {
           <a href="/Rifle" onclick="event.preventDefault()"><img src={RifleImg} alt='Pistol' height='300px' width='300px'></img>
           </a>
          
-          <a href="/Shotgun" onclick="event.preventDefault()"><img src={ShotgunImg} alt='Pistol' height='300px' width='300px'></img>
-          </a>
+          {/* <a href="/Shotgun" onclick="event.preventDefault()"><img src={ShotgunImg} alt='Pistol' height='300px' width='300px'></img>
+          </a> */}
 
 
           {/* <Link to='/Pistol'>
