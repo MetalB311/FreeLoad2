@@ -93,7 +93,7 @@
 
 h1 {
   
-  font-size: 150px;
+  font-size: 120px;
   font:bold;
   color:greenyellow;
   /* background-color: blue; */
@@ -112,7 +112,8 @@ button {
   width: 270px;
   display: inline;
   flex-direction: row;
-  margin: 15px
+  margin: 15px;
+  
 }
 
 ul {
@@ -130,6 +131,7 @@ ul {
 } */
 
 a {
+  color: rgb(17, 37, 218);
   font-size: xx-large;
   font-weight: bold;
   height: 250px;
@@ -140,12 +142,14 @@ a {
   align-items: center;
   justify-content: center;
   margin: 100px;
-  border: black
+  border: black;
+  /* margin-left: 100px */
 }
 
 header {
   background-color: darkcyan;
-  min-height: 15vh;
+  /* min-height: 15vh; */
+  height: 300px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -181,12 +185,12 @@ header {
   position: fixed;
   top: 0;
   background: darkcyan;
-  right: -450px;
+  right: -350px;
   /* bottom: 0; */
   height: 100vh;
   width: 0;
   overflow: hidden;
-  width: 400px;
+  width: 300px;
   z-index: 9;
   display: flex;
   flex-direction: column;
@@ -207,4 +211,14 @@ header {
 
 .menuNav li:first-child {
   margin-top: 7rem;
+}
+
+h2 {
+  color: rgb(17, 37, 218);
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }

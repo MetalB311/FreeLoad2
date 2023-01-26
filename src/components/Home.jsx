@@ -20,13 +20,13 @@ const Home = () => {
             <Link to='/'>Home</Link>
           </button> */}
          
-          <a href="/Pistol" onclick="event.preventDefault()"><img src={PistolImg} alt='Pistol' height='300px' width='300px'></img>
+          <a href="/Pistol" onclick="event.preventDefault()">Pistol<img src={PistolImg} alt='Pistol' height='300px' width='300px'></img>
           </a>
          
-          <a href="/Rifle" onclick="event.preventDefault()"><img src={RifleImg} alt='Pistol' height='300px' width='300px'></img>
+          <a href="/Rifle" onclick="event.preventDefault()">Rifle<img src={RifleImg} alt='Pistol' height='300px' width='300px'></img>
           </a>
          
-          {/* <a href="/Shotgun" onclick="event.preventDefault()"><img src={ShotgunImg} alt='Pistol' height='300px' width='300px'></img>
+          {/* <a href="/Shotgun" onclick="event.preventDefault()">Shotgun<img src={ShotgunImg} alt='Pistol' height='300px' width='300px'></img>
           </a> */}
 
 
